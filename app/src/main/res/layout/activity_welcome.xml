@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".welcomeActivity"
+    android:orientation="vertical"
+    android:background="@drawable/welcomebackground">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:fontFamily="casual"
+        style="@style/TextAppearance.AppCompat.Large"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Congratulations!!, You Got All This money"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        style="@style/TextAppearance.AppCompat.Large"
+        />
+    <Button
+        android:id="@+id/homeButtonID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go Home"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginRight="20dp"/>
+
+</LinearLayout>
